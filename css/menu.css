@@ -1,0 +1,79 @@
+.container-fluid.menu-container {
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.menu-description {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	padding-right: 15%;
+	padding-left: 15%;
+	margin-top: 85px;
+}
+
+.house {
+	height: 100%;
+	background-image: url(../img/house.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 220px;
+	overflow: hidden;
+}
+
+.inside p {
+	font-family: Roboto;
+	font-size: 14px;
+	color: white;
+	background-color: rgba(0, 0, 0, .5);
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.menu {
+	width: 100%;
+	height: 40px;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.menu ul.menuu {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	padding: 0;
+}
+
+nav.menu {
+  	float: right;
+  	list-style: none;
+}
+
+nav li{
+  	width: auto;
+  	border-right: 2px solid rgba(220, 220, 220, .2);
+  	padding-right: 20px;
+  	padding-left: 20px;
+  	float: left;
+  	list-style-type: none;
+}
+
+nav li:hover {
+	background-color: rgba(105, 105, 105, .1);
+}
+
+nav li a{
+  	font-family: Roboto;
+  	font-size: 15px;
+  	color: white;
+  	line-height: 42px;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	color: #808080;
+}

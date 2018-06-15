@@ -1,0 +1,47 @@
+.container-fluid.footer-container {
+	width: 100%;
+	height: 75px;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	width: 100%;
+	height: 75px;
+	padding: 20px 15% 20px 15%;
+	position: relative;
+	margin: auto;
+	background-color: rgba(255, 255, 255, .4);
+}
+
+footer p {
+	text-align: center;
+}
+
+p.bot {
+	font-family: Roboto;
+	font-size: 17px;
+	color: black;
+}
+
+img.eagle {
+	width: 40px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #696969;
+}
+
+span.colortexts {
+	color: #696969;
+}
+
+span.colortexts:hover {
+	color: black;
+}

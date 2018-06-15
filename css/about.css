@@ -1,0 +1,274 @@
+.container-fluid.about-container {
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.row.activity-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+}
+
+.activity-text {
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+p.title {
+	font-family: Roboto;
+	font-size: 28px;
+	color: #808080;
+}
+
+p.title:first-letter {
+	color: black;
+}
+
+p.text {
+	font-family: Roboto;
+	font-size: 15px;
+	color: black;
+}
+
+p.sign {
+	font-family: Roboto;
+	font-size: 15px;
+	color: #808080;
+	font-style: italic;
+	margin-left: 20px;
+}
+
+.row.img_text-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+}
+
+.img-text {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+p.imgs {
+	font-family: Roboto;
+	font-size: 18px;
+	color: #808080;
+}
+
+p.imgs:first-letter {
+	color: black;
+}
+
+.row.pic-row {
+	width: 70%;
+	height: 100%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: white;
+}
+
+.pictures {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	background-color: white;
+}
+
+img.bl {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.row.descr-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+}
+
+.descr-text {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+}
+
+.row.link-row {
+	width: 70%;
+	height: 100%;
+	padding: 0;
+	margin: 0 15% 0 15%;
+	background-color: white;
+}
+
+#marker-text,
+#number-text,
+#attribute-text {
+	margin: 0;
+	padding: 0;
+}
+
+.row.link-row a {
+	font-family: Roboto;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+#attribute-text a {
+	padding-left: 20px;
+}
+
+#attribute-text dd a {
+	padding-left: 40px;
+}
+
+.row.list-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+}
+
+.list-text {
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+.row.table-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+}
+
+.table-text {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+table {
+    width: 100%; 
+    height: 100%;
+
+}
+td, th {
+    background: white;
+    padding: 5px;
+    border: 2px solid #C0C0C0;
+    font-family: Roboto;
+    font-size: 14px;
+    color: black;
+}
+
+th {
+	background-color: #DCDCDC;
+}
+
+.row.preform-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+}
+
+.preform-text {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+.row.form-row {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0 15% 0 15%;
+	background-color: silver;
+}
+
+.form-text {
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+#contact_f {
+	width: 50%;
+	height: 30px;
+	text-align: left;
+	font-family: Roboto;
+	font-size: 16px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+.select-text {
+	font-family: Roboto;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+select {
+	width: 50%;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.checkbox-text,
+.radio-text {
+	width: 100%;
+	height: 100%;
+	font-family: Roboto;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.comments-area-text {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.comments-area-text p {
+	font-family: Roboto;
+	font-size: 15px;
+	color: black;
+	margin-bottom: 1px;
+}
+
+.comments-area-text textarea {
+	width: 60%;
+}
+
+.button.buttonSend {
+	width: 25%;
+	height: 30px;
+	font-family: Roboto;
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	border: none;
+	margin-bottom: 30px;
+}
+
+.button.buttonSend:hover {
+	background-color: rgba(0, 0, 0, .9);
+}
